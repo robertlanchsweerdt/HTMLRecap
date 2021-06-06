@@ -22,7 +22,7 @@
             </div>
             <nav>
                 <a href="./index.html">HOME</a>
-                <a href="https://elevenfifty.org/courses/">COURSES</a>
+                <a href="https://elevenfifty.org/courses/" target="_blank">COURSES</a>
                 <a href="#contact">CONTACT</a>
             </nav>
         </header>
@@ -32,7 +32,7 @@
             <div class="box1">
 
                 <div class="img-wrapper">
-                    <img src="./assets/you-got-this.jpeg" alt="">
+                    <img src="./assets/you-got-this.jpeg" alt="laptop computer with sign that says You Got This">
                 </div>
 
             </div>
@@ -133,9 +133,185 @@
 
         <section class="container section__what-is">
 
-            <h1>What is HTML?</h1>
+            <article class="box1">
+
+                <h1>What is HTML?</h1>
+
+                <p>
+                    HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning
+                    and structure of web content. Other technologies besides HTML are generally used to describe a web
+                    page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
+                </p>
+
+                <p>
+                    "Hypertext" refers to links that connect web pages to one another, either within a single website or
+                    between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet
+                    and linking it to pages created by other people, you become an active participant in the World Wide
+                    Web.
+                </p>
+
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" id="mdn-link" target="_blank">Source: MDN
+                    Web Docs</a>
+
+            </article>
+
+            <div class="box2" id="html-img">
+
+                <img src="./assets/html.jpeg" alt="alphabet tile pieces that spell HTML">
+
+            </div>
 
         </section>
+
+        <section class="container section__contact" id="contact">
+
+            <div class="box1">
+
+                <h1>Questions about HTML?</h1>
+
+                <form>
+                    <fieldset id="contact-info">
+
+                        <legend>Your Contact Info</legend>
+
+                        <div>
+
+                            <label for="name">Your Name:</label>
+                            <input type="text">
+
+
+                        </div>
+
+                        <div>
+
+                            <label for="tele">Phone:</label>
+                            <input type="tel">
+
+
+                        </div>
+
+                        <div>
+
+                            <label for="question">What's your question?</label>
+                            <textarea name="question" id="question"></textarea>
+
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>What tags are giving you fits?</legend>
+
+                        <div id="form__checkbox-wrapper">
+
+                            <div>
+
+                                <input type="checkbox" name="html-tags" id="forms-tag" value="forms-tag">
+
+                                <label for="forms-tag">Forms</label>
+
+                            </div>
+
+                            <div>
+
+                                <input type="checkbox" name="html-tags" id="input-tag" value="input-tag">
+
+                                <label for="input-tag">Inputs</label>
+
+                            </div>
+
+                            <div>
+
+                                <input type="checkbox" name="html-tags" id="nav-tag" value="nav-tag">
+
+                                <label for="nav-tag">Navs</label>
+
+                            </div>
+
+                            <div>
+
+                                <input type="checkbox" name="html-tags" id="iframe-tag" value="iframe-tag">
+
+                                <label for="iframe-tag">IFrames</label>
+
+                            </div>
+
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Best Time to Call?</legend>
+
+                        <div id="form__radio-wrapper">
+
+                            <div>
+
+                                <input type="radio" name="time" id="time1" value="time1">
+
+                                <label for="time1">8AM to 10AM</label>
+
+                            </div>
+
+                            <div>
+
+                                <input type="radio" name="time" id="time2" value="time2">
+
+                                <label for="time2">11AM to 1PM</label>
+
+                            </div>
+
+                            <div>
+
+                                <input type="radio" name="time" id="time3" value="time3">
+
+                                <label for="time3">1PM to 3PM</label>
+
+                            </div>
+
+                            <div>
+
+                                <input type="radio" name="time" id="time4" value="time4">
+
+                                <label for="time4">3PM to 5PM</label>
+
+                            </div>
+
+                        </div>
+
+                    </fieldset>
+
+                    <div id="form__button-wrapper">
+
+                        <button type="submit">SUBMIT</button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+
+            <div class="box2">
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/W-6OY9eI3hk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+            </div>
+
+        </section>
+
+        <footer class="container">
+
+            <p>2021 &copy; Robert Lanchsweerdt</p>
+
+            <a href="#">Privacy Policy</a>
+
+            <a href="#">Terms and Conditions</a>
+
+        </footer>
 
     </div>
 
